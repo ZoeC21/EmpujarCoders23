@@ -1,0 +1,28 @@
+Commit: Cualquier cosa que no esté preparada - cualquier archivo que hayas creado o modificado y que no hayas agregado 
+con git adddesde su edición - no será confirmado. 
+Se mantendrán como archivos modificados en tu disco. 
+En este caso, digamos que la última vez que ejecutaste 
+git status verificaste que todo estaba preparado y 
+que estás listo para confirmar tus cambios.
+La forma más sencilla de confirmar es escribiendo git commit:
+
+$ git commit -m "Ejempo para agregar aqui"
+
+Fetch:Por otro lado, si quieres deshacer todos los cambios 
+locales y commits, puedes traer la última
+versión del servidor y apuntar a tu copia local principal de esta forma.
+
+$ git fetch origin
+
+Pull:Para actualizar tu repositorio local al commit más nuevo, ejecuta
+
+$ git pull
+
+en tu directorio de trabajo para bajar y fusionar los cambios remotos.
+
+
+Push:Para enviar estos cambios a tu repositorio remoto ejecuta
+
+$ git push origin master
+
+Reemplaza master por la rama a la que quieres enviar tus cambios.
