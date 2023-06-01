@@ -26,3 +26,6 @@ Push:Para enviar estos cambios a tu repositorio remoto ejecuta
 $ git push origin master
 
 Reemplaza master por la rama a la que quieres enviar tus cambios.
+
+
+// Comentarios de Valentina: Amo el detalle de agregar cómo se escriben los comandos ❤️
